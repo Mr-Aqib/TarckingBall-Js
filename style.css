@@ -3,6 +3,6 @@
     height: 15%;
     background-color: red;
    clip-path: circle();
-    transition: all .3s;
- 
+   transition: transform .4s linear;
+ transition:all .3s linear;
 }
