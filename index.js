@@ -14,6 +14,9 @@ let count =0
 
 window.addEventListener(('mousemove'),(e)=>
 {
+
+    let bodyrandcolors=Math.floor(Math.random()*16777512).toString(16)
+    body.style.backgroundColor=bodyrandcolors
     if(count > colorchanger.length-1)
     {
         count=0
