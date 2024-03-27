@@ -2,6 +2,6 @@
     width: 20%;
     height: 20%;
     background-color: red;
-    border-radius: 50%;
+   clip-path: circle();
     transition: all .1s;
 }
